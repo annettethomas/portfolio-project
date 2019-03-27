@@ -13,7 +13,7 @@
       $message = $_POST['message'];
       $recipient = "annettethomasmarie@gmail.com";
       $mailheader = "From:  $email \r\n";
-      mail($recipient, $subject, $message, $mailheader, $message) or die("Error:");
+      mail($recipient, $subject, $message, $mailheader;) or die("Error:");
       echo "Thank you! I'll be in touch soon!"
       ?>
 </body>
